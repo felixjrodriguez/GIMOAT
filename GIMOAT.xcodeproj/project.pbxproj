@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7B73BD329BA665B00749B9A /* GIMOATApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B73BD229BA665B00749B9A /* GIMOATApp.swift */; };
+		F7B73BD529BA665B00749B9A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B73BD429BA665B00749B9A /* Persistence.swift */; };
+		F7B73BD829BA665B00749B9A /* GIMOAT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7B73BD629BA665B00749B9A /* GIMOAT.xcdatamodeld */; };
+		F7B73BDA29BA665B00749B9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B73BD929BA665B00749B9A /* ContentView.swift */; };
+		F7B73BDC29BA665C00749B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B73BDB29BA665C00749B9A /* Assets.xcassets */; };
+		F7B73BE029BA665C00749B9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B73BDF29BA665C00749B9A /* Preview Assets.xcassets */; };
+		F7B73BEA29BA665C00749B9A /* GIMOATTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B73BE929BA665C00749B9A /* GIMOATTests.swift */; };
+		F7B73BF429BA665C00749B9A /* GIMOATUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B73BF329BA665C00749B9A /* GIMOATUITests.swift */; };
+		F7B73BF629BA665C00749B9A /* GIMOATUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B73BF529BA665C00749B9A /* GIMOATUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7B73BE629BA665C00749B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B73BC729BA665B00749B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B73BCE29BA665B00749B9A;
+			remoteInfo = GIMOAT;
+		};
+		F7B73BF029BA665C00749B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B73BC729BA665B00749B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B73BCE29BA665B00749B9A;
+			remoteInfo = GIMOAT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7B73BCF29BA665B00749B9A /* GIMOAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIMOAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B73BD229BA665B00749B9A /* GIMOATApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMOATApp.swift; sourceTree = "<group>"; };
+		F7B73BD429BA665B00749B9A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F7B73BD729BA665B00749B9A /* GIMOAT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GIMOAT.xcdatamodel; sourceTree = "<group>"; };
+		F7B73BD929BA665B00749B9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7B73BDB29BA665C00749B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7B73BDD29BA665C00749B9A /* GIMOAT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GIMOAT.entitlements; sourceTree = "<group>"; };
+		F7B73BDF29BA665C00749B9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7B73BE529BA665C00749B9A /* GIMOATTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIMOATTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B73BE929BA665C00749B9A /* GIMOATTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMOATTests.swift; sourceTree = "<group>"; };
+		F7B73BEF29BA665C00749B9A /* GIMOATUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIMOATUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B73BF329BA665C00749B9A /* GIMOATUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMOATUITests.swift; sourceTree = "<group>"; };
+		F7B73BF529BA665C00749B9A /* GIMOATUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIMOATUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7B73BCC29BA665B00749B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B73BE229BA665C00749B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B73BEC29BA665C00749B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7B73BC629BA665B00749B9A = {
+			isa = PBXGroup;
+			children = (
+				F7B73BD129BA665B00749B9A /* GIMOAT */,
+				F7B73BE829BA665C00749B9A /* GIMOATTests */,
+				F7B73BF229BA665C00749B9A /* GIMOATUITests */,
+				F7B73BD029BA665B00749B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7B73BD029BA665B00749B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7B73BCF29BA665B00749B9A /* GIMOAT.app */,
+				F7B73BE529BA665C00749B9A /* GIMOATTests.xctest */,
+				F7B73BEF29BA665C00749B9A /* GIMOATUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7B73BD129BA665B00749B9A /* GIMOAT */ = {
+			isa = PBXGroup;
+			children = (
+				F7B73BD229BA665B00749B9A /* GIMOATApp.swift */,
+				F7B73BD429BA665B00749B9A /* Persistence.swift */,
+				F7B73BD929BA665B00749B9A /* ContentView.swift */,
+				F7B73BDB29BA665C00749B9A /* Assets.xcassets */,
+				F7B73BDD29BA665C00749B9A /* GIMOAT.entitlements */,
+				F7B73BD629BA665B00749B9A /* GIMOAT.xcdatamodeld */,
+				F7B73BDE29BA665C00749B9A /* Preview Content */,
+			);
+			path = GIMOAT;
+			sourceTree = "<group>";
+		};
+		F7B73BDE29BA665C00749B9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7B73BDF29BA665C00749B9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7B73BE829BA665C00749B9A /* GIMOATTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7B73BE929BA665C00749B9A /* GIMOATTests.swift */,
+			);
+			path = GIMOATTests;
+			sourceTree = "<group>";
+		};
+		F7B73BF229BA665C00749B9A /* GIMOATUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7B73BF329BA665C00749B9A /* GIMOATUITests.swift */,
+				F7B73BF529BA665C00749B9A /* GIMOATUITestsLaunchTests.swift */,
+			);
+			path = GIMOATUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7B73BCE29BA665B00749B9A /* GIMOAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B73BF929BA665C00749B9A /* Build configuration list for PBXNativeTarget "GIMOAT" */;
+			buildPhases = (
+				F7B73BCB29BA665B00749B9A /* Sources */,
+				F7B73BCC29BA665B00749B9A /* Frameworks */,
+				F7B73BCD29BA665B00749B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIMOAT;
+			productName = GIMOAT;
+			productReference = F7B73BCF29BA665B00749B9A /* GIMOAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7B73BE429BA665C00749B9A /* GIMOATTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B73BFC29BA665C00749B9A /* Build configuration list for PBXNativeTarget "GIMOATTests" */;
+			buildPhases = (
+				F7B73BE129BA665C00749B9A /* Sources */,
+				F7B73BE229BA665C00749B9A /* Frameworks */,
+				F7B73BE329BA665C00749B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7B73BE729BA665C00749B9A /* PBXTargetDependency */,
+			);
+			name = GIMOATTests;
+			productName = GIMOATTests;
+			productReference = F7B73BE529BA665C00749B9A /* GIMOATTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7B73BEE29BA665C00749B9A /* GIMOATUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B73BFF29BA665C00749B9A /* Build configuration list for PBXNativeTarget "GIMOATUITests" */;
+			buildPhases = (
+				F7B73BEB29BA665C00749B9A /* Sources */,
+				F7B73BEC29BA665C00749B9A /* Frameworks */,
+				F7B73BED29BA665C00749B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7B73BF129BA665C00749B9A /* PBXTargetDependency */,
+			);
+			name = GIMOATUITests;
+			productName = GIMOATUITests;
+			productReference = F7B73BEF29BA665C00749B9A /* GIMOATUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7B73BC729BA665B00749B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F7B73BCE29BA665B00749B9A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F7B73BE429BA665C00749B9A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F7B73BCE29BA665B00749B9A;
+					};
+					F7B73BEE29BA665C00749B9A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F7B73BCE29BA665B00749B9A;
+					};
+				};
+			};
+			buildConfigurationList = F7B73BCA29BA665B00749B9A /* Build configuration list for PBXProject "GIMOAT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7B73BC629BA665B00749B9A;
+			productRefGroup = F7B73BD029BA665B00749B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7B73BCE29BA665B00749B9A /* GIMOAT */,
+				F7B73BE429BA665C00749B9A /* GIMOATTests */,
+				F7B73BEE29BA665C00749B9A /* GIMOATUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7B73BCD29BA665B00749B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B73BE029BA665C00749B9A /* Preview Assets.xcassets in Resources */,
+				F7B73BDC29BA665C00749B9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B73BE329BA665C00749B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B73BED29BA665C00749B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7B73BCB29BA665B00749B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B73BD329BA665B00749B9A /* GIMOATApp.swift in Sources */,
+				F7B73BD829BA665B00749B9A /* GIMOAT.xcdatamodeld in Sources */,
+				F7B73BDA29BA665B00749B9A /* ContentView.swift in Sources */,
+				F7B73BD529BA665B00749B9A /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B73BE129BA665C00749B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B73BEA29BA665C00749B9A /* GIMOATTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B73BEB29BA665C00749B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B73BF429BA665C00749B9A /* GIMOATUITests.swift in Sources */,
+				F7B73BF629BA665C00749B9A /* GIMOATUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7B73BE729BA665C00749B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7B73BCE29BA665B00749B9A /* GIMOAT */;
+			targetProxy = F7B73BE629BA665C00749B9A /* PBXContainerItemProxy */;
+		};
+		F7B73BF129BA665C00749B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7B73BCE29BA665B00749B9A /* GIMOAT */;
+			targetProxy = F7B73BF029BA665C00749B9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7B73BF729BA665C00749B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7B73BF829BA665C00749B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F7B73BFA29BA665C00749B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GIMOAT/GIMOAT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GIMOAT/Preview Content\"";
+				DEVELOPMENT_TEAM = PG22W2X24Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code2066.GIMOAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7B73BFB29BA665C00749B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GIMOAT/GIMOAT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GIMOAT/Preview Content\"";
+				DEVELOPMENT_TEAM = PG22W2X24Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code2066.GIMOAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7B73BFD29BA665C00749B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG22W2X24Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code2066.GIMOATTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIMOAT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GIMOAT";
+			};
+			name = Debug;
+		};
+		F7B73BFE29BA665C00749B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG22W2X24Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code2066.GIMOATTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIMOAT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GIMOAT";
+			};
+			name = Release;
+		};
+		F7B73C0029BA665C00749B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG22W2X24Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code2066.GIMOATUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GIMOAT;
+			};
+			name = Debug;
+		};
+		F7B73C0129BA665C00749B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG22W2X24Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code2066.GIMOATUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GIMOAT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7B73BCA29BA665B00749B9A /* Build configuration list for PBXProject "GIMOAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B73BF729BA665C00749B9A /* Debug */,
+				F7B73BF829BA665C00749B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B73BF929BA665C00749B9A /* Build configuration list for PBXNativeTarget "GIMOAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B73BFA29BA665C00749B9A /* Debug */,
+				F7B73BFB29BA665C00749B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B73BFC29BA665C00749B9A /* Build configuration list for PBXNativeTarget "GIMOATTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B73BFD29BA665C00749B9A /* Debug */,
+				F7B73BFE29BA665C00749B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B73BFF29BA665C00749B9A /* Build configuration list for PBXNativeTarget "GIMOATUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B73C0029BA665C00749B9A /* Debug */,
+				F7B73C0129BA665C00749B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F7B73BD629BA665B00749B9A /* GIMOAT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F7B73BD729BA665B00749B9A /* GIMOAT.xcdatamodel */,
+			);
+			currentVersion = F7B73BD729BA665B00749B9A /* GIMOAT.xcdatamodel */;
+			path = GIMOAT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F7B73BC729BA665B00749B9A /* Project object */;
+}
